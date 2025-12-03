@@ -1,16 +1,13 @@
-h1 {
-    color : black ; 
-    font-size: 65px;
-}
-
 body{
     background: linear-gradient(90deg, #e77307d3, #dbb50c);
 }
-
-a{
-    font-size: 30px;
+h1 {
+    color : black ; 
+    font-size: 50px;
 }
-
+h3{
+    font-size: 25px;
+}
 a:visited{
     color:  blue;
 }
