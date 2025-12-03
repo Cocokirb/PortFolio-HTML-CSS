@@ -1,0 +1,18 @@
+.p3:hover{
+    color : green ;
+}
+.p3:active{
+    text-decoration: underline;
+}
+
+.p6:hover{
+    font-style: italic;
+}
+
+a:visited{
+    color:  blue;
+}
+
+a:active{
+    color:  blue;
+}

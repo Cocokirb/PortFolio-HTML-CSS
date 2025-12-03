@@ -1,0 +1,28 @@
+body{
+    background: url("pingouin.png") no-repeat ;
+    background-size: cover; 
+    background-color: green;
+}
+
+section{
+    color : white
+}
+article{
+    color : black
+}
+.titre1{
+    color : violet ;
+}
+
+.section{
+    background-color:brown ;
+    opacity: 0.8;
+}
+
+.article{
+    background: url("pingouin.png") center no-repeat;
+    background-size: contain;
+    background-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+}

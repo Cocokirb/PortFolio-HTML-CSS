@@ -1,0 +1,30 @@
+body{
+    background-color: grey;
+    color : white ;
+}
+p,h3{
+    margin-left: 10px;
+}
+.a1{
+    background: url("pingouin.png") no-repeat left ;
+    background-size : contain ;
+    background-color: rgb(85, 85, 233);
+    border : 10px dashed orange ;
+    background-clip: border-box;
+}
+
+.a2{
+    background: url("pingouin.png") no-repeat left;
+    background-size : contain ;
+    background-color: green ;
+    border : 10px dashed orange ;
+    background-clip: padding-box;
+}
+
+.a3{
+    background: url("pingouin.png") no-repeat left ;
+    background-size : contain ;
+    background-color: rgb(180, 57, 180);
+    border : 10px dashed orange ;
+    background-clip: content-box ;
+}

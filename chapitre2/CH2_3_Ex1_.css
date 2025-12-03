@@ -1,0 +1,11 @@
+body{
+   background: url("pingouin.png") no-repeat center top , url("feuilles.png") center fixed   ; 
+}
+
+p{
+    color: aliceblue;
+}
+
+.titre1{
+    color : violet
+}
