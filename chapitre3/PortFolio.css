@@ -14,3 +14,10 @@ a{
 a:visited{
     color:  blue;
 }
+nav ul{
+    display: flex;
+}
+
+.div1{
+
+}

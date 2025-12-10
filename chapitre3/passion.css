@@ -12,5 +12,15 @@ a:visited{
 }
 
 h3{
+    font-size: 30px;
+}
+.text{
     font-size: 25px;
+}
+.textpersona{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.bordurePersona{
+        border: #0b78c0d0 solid 2px;
 }
