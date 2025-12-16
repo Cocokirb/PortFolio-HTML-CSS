@@ -4,7 +4,7 @@ h1 {
 }
 
 body{
-    background: linear-gradient(90deg, #e77307d3, #dbb50c);
+    background-color: rgba(8, 153, 211, 0.932);
 }
 
 a{
@@ -17,7 +17,7 @@ a:visited{
 nav ul{
     display: flex;
 }
-
-.div1{
-
+.intro{
+    font-size : 25px ;
+    color: rgb(59, 32, 0)
 }

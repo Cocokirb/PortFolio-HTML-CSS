@@ -1,0 +1,12 @@
+h1 {
+    color : black ; 
+    font-size: 60px;
+}
+
+body{
+    background-color: rgba(8, 153, 211, 0.932);
+}
+
+a:visited{
+    color:  blue;
+}

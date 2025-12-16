@@ -1,10 +1,10 @@
 h1 {
     color : black ; 
-    font-size: 55px;
+    font-size: 60px;
 }
 
 body{
-    background: linear-gradient(90deg, #e77307d3, #dbb50c);
+    background-color: rgba(8, 153, 211, 0.932);
 }
 
 a:visited{
@@ -22,5 +22,5 @@ h3{
     font-size: 20px;
 }
 .bordurePersona{
-        border: #0b78c0d0 solid 2px;
+        border: #0e2de0 solid 2px;
 }
