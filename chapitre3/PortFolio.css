@@ -17,7 +17,57 @@ a:visited{
 nav ul{
     display: flex;
 }
-.intro{
-    font-size : 25px ;
-    color: rgb(59, 32, 0)
+.menu{
+    display: flex;
+    background-color: rgb(22, 139, 235);
+    border-radius: 10px;
 }
+.intro{
+    font-size: 25px;
+}
+
+
+.onglet1{
+    margin-right: 20px ;
+    background-color: rgb(22, 139, 235) ;
+    padding: 10px ;
+    border-radius: 10px ;
+
+}
+
+.onglet2{
+    margin-right: 20px ;
+    background-color: rgb(22, 139, 235) ;
+    padding: 10px ;
+    border-radius: 10px ;
+}
+
+.onglet3{
+    margin-right: 20px ;
+    background-color: rgb(22, 139, 235) ;
+    padding: 10px ;
+    border-radius: 10px ;
+}
+
+.onglet4{
+    margin-right: 20px ;
+    background-color: rgb(22, 139, 235) ;
+    padding: 10px ;
+    border-radius: 10px ;
+}
+
+.onglet5{
+    margin-right: 20px ;
+    background-color: rgb(22, 139, 235) ;
+    padding: 10px ;
+    border-radius: 10px ;
+}
+
+.onglet6{
+    margin-right: 20px ;
+    background-color: rgb(22, 139, 235) ;
+    padding: 10px ;
+    border-radius: 10px ;
+    
+}
+

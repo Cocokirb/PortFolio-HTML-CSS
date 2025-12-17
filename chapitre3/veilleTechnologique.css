@@ -10,3 +10,8 @@ body{
 a:visited{
     color:  blue;
 }
+.travaux{
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(158, 17, 17);
+}
