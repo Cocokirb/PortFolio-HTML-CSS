@@ -3,10 +3,6 @@ h1 {
     font-size: 65px;
 }
 
-body{
-    background-color: rgba(8, 153, 211, 0.932);
-}
-
 a{
     font-size: 30px;
 }
@@ -27,47 +23,76 @@ nav ul{
 }
 
 
-.onglet1{
-    margin-right: 20px ;
-    background-color: rgb(22, 139, 235) ;
-    padding: 10px ;
-    border-radius: 10px ;
-
+:root{
+  --primary:#2b6cb0;
+  --accent:#f6f8fa;
+  --text:#222;
 }
 
-.onglet2{
-    margin-right: 20px ;
-    background-color: rgb(22, 139, 235) ;
-    padding: 10px ;
-    border-radius: 10px ;
+body{
+  font-family: Arial ;
+  color :var(--text);
+  margin:0;
+  line-height:1.5;
+  background-color: rgba(8, 153, 211, 0.932);
 }
 
-.onglet3{
-    margin-right: 20px ;
-    background-color: rgb(22, 139, 235) ;
-    padding: 10px ;
-    border-radius: 10px ;
+.container{
+  max-width:1000px;
+  margin:0 auto;
+  padding:20px;
 }
 
-.onglet4{
-    margin-right: 20px ;
-    background-color: rgb(22, 139, 235) ;
-    padding: 10px ;
-    border-radius: 10px ;
-}
 
-.onglet5{
-    margin-right: 20px ;
-    background-color: rgb(22, 139, 235) ;
-    padding: 10px ;
-    border-radius: 10px ;
+header{
+  background:linear-gradient(90deg,var(--primary),#4a90e2);
+  color:white;
+  position: sticky;
+  top: 0;
+  
 }
+.head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  padding:12px 20px;
+}
+.logo{
+  font-weight:700;
+  font-size:1.1rem;
+}
+.onglets{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  gap:12px;
+}
+.onglets a{
+  color:white;
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:6px;
+  font-size:0.95rem;
+}
+.onglets a:hover{ background: rgba(255,255,255,0.12); }
+.onglets a.active{ background: rgba(0,0,0,0.18); }
 
-.onglet6{
-    margin-right: 20px ;
-    background-color: rgb(22, 139, 235) ;
-    padding: 10px ;
-    border-radius: 10px ;
-    
+
+footer{
+  background:#111;
+  color:#ddd;
+  text-align:center;
+  padding:18px 12px;
+  margin-top:32px;
+  font-size:0.95rem;
+}
+footer a{ color: #9fd0ff; text-decoration:none; }
+
+
+@media (max-width:600px){
+  .head{ flex-direction:column; align-items:flex-start; gap:8px; }
+  .onglets{ flex-wrap:wrap; gap:8px; }
 }
 

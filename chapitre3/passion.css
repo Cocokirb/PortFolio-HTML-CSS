@@ -1,5 +1,5 @@
 h1 {
-    color : black ; 
+    color : rgba(202, 223, 13, 0.932) ; 
     font-size: 60px;
 }
 
@@ -7,9 +7,6 @@ body{
     background-color: rgba(8, 153, 211, 0.932);
 }
 
-a:visited{
-    color:  blue;
-}
 
 h3{
     font-size: 30px;
@@ -17,10 +14,23 @@ h3{
 .text{
     font-size: 25px;
 }
-.textpersona{
+.textpassions{
     text-decoration: underline;
     font-size: 20px;
 }
-.bordurePersona{
-        border: #0e2de0 solid 2px;
+.bordurePersona3{
+    border: #1643c0 solid 2px;
+}
+
+.bordurePersona5{
+    border: #e03f0e solid 2px;
+}
+.sao {
+    border: #3a3131 solid 2px;
+}
+.cm {
+    border: #d65012 solid 2px;
+}
+.snk {
+    border: #3e697a solid 2px;
 }

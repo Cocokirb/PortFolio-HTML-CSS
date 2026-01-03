@@ -2,10 +2,6 @@ body{
     background-color: rgba(8, 153, 211, 0.932);
 }
 
-a:visited{
-    color:  blue;
-}
-
 h1{
     font-size: 50px;
 }
