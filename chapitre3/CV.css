@@ -2,16 +2,29 @@ body{
     background-color: rgba(8, 153, 211, 0.932);
 }
 
-h1 {
-    color : black ; 
-    font-size: 60px;
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px ;
 }
 
-a:visited{
-    color:  blue;
+.texte{
+    font-size: 25px ;
+
 }
 
-p {
-    font-size: 40px ;
-    align-items : center ;
+.cv{
+    padding: 16px 0;
 }
+.cv-section{  
+    background: rgba(95, 88, 70, 0.986);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-style: solid ;
+    border-color: black;
+}
+.competences{
+    margin: 8px 0 0 1.1rem;
+    font-size: 20px;
+}
+.competences li{ margin-bottom:6px; }

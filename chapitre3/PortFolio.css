@@ -35,12 +35,16 @@ body{
   margin:0;
   line-height:1.5;
   background-color: rgba(8, 153, 211, 0.932);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container{
   max-width:1000px;
   margin:0 auto;
   padding:20px;
+  flex: 1;
 }
 
 
@@ -85,7 +89,7 @@ footer{
   color:#ddd;
   text-align:center;
   padding:18px 12px;
-  margin-top:32px;
+  margin-top: auto;
   font-size:0.95rem;
 }
 footer a{ color: #9fd0ff; text-decoration:none; }
